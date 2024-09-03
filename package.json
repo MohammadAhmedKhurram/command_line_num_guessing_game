@@ -1,20 +1,22 @@
 {
-  "name": "commmand_line_num_guessing_game",
-  "version": "2.0.0",
-  "description": "It's a number guessing game you play by typing numbers in a terminal window.",
-  "main": "index.js",
+  "name": "command_line_num_guessing_game",
+  "version": "2.0.6",
+  "description": "A TypeScript-based command-line number guessing game using Node.js, Inquirer, and Chalk. Players choose a difficulty level and try to guess a randomly generated number within the specified range.",
+  "main": "main.js",
   "type": "module",
-  "bin":"index.ts",
-
+  "bin": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node dist/main.js"
   },
   "author": "Muhammad Ahmed",
   "license": "MIT",
   "dependencies": {
-    "inquirer": "^9.2.16"
+    "inquirer": "^9.2.16",
+    "chalk": "^5.0.1"
   },
   "devDependencies": {
-    "@types/inquirer": "^9.0.7"
+    "@types/inquirer": "^9.0.7",
+    "typescript": "^5.0.0"
   }
 }

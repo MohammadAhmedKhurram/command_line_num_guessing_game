@@ -43,7 +43,7 @@ while (condition) {
         }
     }
     if (input1.difficultyLevel == "Difficult") {
-        const randomNumber3 = Math.floor(Math.random() * 10 + 1);
+        const randomNumber3 = Math.floor(Math.random() * 3 + 4);
         const input4 = await inquirer.prompt({
             type: "number",
             message: "Your challenge is to guess a number from 1 to 10",

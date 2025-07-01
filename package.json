@@ -1,6 +1,6 @@
 {
   "name": "command_line_num_guessing_game",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "A TypeScript-based command-line number guessing game using Node.js, Inquirer, and Chalk. Players choose a difficulty level and try to guess a randomly generated number within the specified range.",
   "main": "main.js",
   "type": "module",
